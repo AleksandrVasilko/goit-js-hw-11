@@ -8,7 +8,7 @@ import galleryCardsTpl from '../templates/gallery-card.hbs'
 const API_KEY = '24801124-06fccb0e586a8b9d373fb9ce7';
 const imagesPerPage = 40;
 
-const search = document.querySelector('.button');
+//const search = document.querySelector('.button');
 
 const refs = {
     search: null,
@@ -44,7 +44,7 @@ refs.form.addEventListener('submit', onSearchSubmit)
 refs.loadMoreButton.addEventListener('click', onLoadMoreImages)
 
 
-search.addEventListener('click', searchFunction);
+//search.addEventListener('click', searchFunction);
 
 async function searchFunction() {
     //console.log('Приветggg');

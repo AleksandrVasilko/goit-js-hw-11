@@ -12,19 +12,25 @@
     />
   </head>
   <body>
-    <form class="search-form" id="search-form">
-      <input type="text" name="searchQuery" autocomplete="off" placeholder="Search images..." />
-      <button type="submit">Search</button>
-    <div class="load-more-btn">
-      <button type="button" class="load-more is-hidden">Load more</button>
+    <section class="section">
+      <div class="container">
+        <form class="search-form" id="search-form">
+          <input class="search-images" type="text" name="searchQuery" autocomplete="off" placeholder="Search images..." />
+          <button class="search-button" type="submit">
+          <svg class="search-icon">
+            <use href="img/search.svg"></use>
+          </svg>
+        </button>
+        </form>
+      </div>
+    <div class="gallery">
+
     </div>
-    </form>
-    <div class="gallery"></div>
 
     <div class="load-more-btn">
       <button type="button" class="load-more is-hidden">Load more</button>
     </div>
-    <button class="button"></button>
+    </section>
     <script src="./index.js"></script>
   </body>
 </html>
